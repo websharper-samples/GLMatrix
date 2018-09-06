@@ -579,7 +579,7 @@ SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE. */
     gl.texParameteri(gl.TEXTURE_2D,gl.TEXTURE_MIN_FILTER,gl.LINEAR);
     return f();
    };
-  })],[]).elt.setAttribute("src","/image.png");
+  })],[]).elt.setAttribute("src","image.png");
  };
  WebGL.DrawRotatingObject=function(gl,program,buf,numVertices)
  {
