@@ -113,7 +113,7 @@ module WebGL =
                     gl.TexParameteri(gl.TEXTURE_2D, gl.TEXTURE_MIN_FILTER, gl.LINEAR)
                     f ())
             ] []
-        i.Dom.SetAttribute("src", "/image.png")
+        i.Dom.SetAttribute("src", "image.png")
         
     let CreateSquare (gl : WebGL.RenderingContext, program) =
         let vertexPosition = gl.GetAttribLocation(program, "position")
